@@ -12,11 +12,12 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(11, 21, 127);
+    background: rgb(11, 10, 127);
     margin: 0 auto;
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 h1 {
@@ -75,3 +76,29 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
+/* Portfolio styles */
+.content h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  #portfolio {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #portfolio li {
+    background: rgb(11, 10, 127);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio li:hover {
+    background: #eee;
+  }
+  
+  #portfolio a {
+    text-decoration: none;
+    color: #ffffff;
+  }
